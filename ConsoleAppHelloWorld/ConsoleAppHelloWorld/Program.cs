@@ -8,10 +8,12 @@ namespace ConsoleAppHelloWorld
 {
     class Program
     {
+        private const string Value = "Welcome to my 1st Application";
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!!");
-            Console.WriteLine("Welcome to my 1st Application");
+            Console.WriteLine(Value);
             Console.ReadKey();
         }
     }
